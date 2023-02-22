@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ec2-54-195-76-73.eu-west-1.compute.amazonaws.com/dbgehncedo1hmp
+    username: iyrgetklgfeobx
+    password: 868128b88bc87daf473f4364978eecec92e415fb9a31d1605578198d16ad4812
+  flyway:
+    enabled: true
+    url: jdbc:postgresql://ec2-54-195-76-73.eu-west-1.compute.amazonaws.com/dbgehncedo1hmp
+    user: iyrgetklgfeobx
+    password: 868128b88bc87daf473f4364978eecec92e415fb9a31d1605578198d16ad4812
+    schemas: progi

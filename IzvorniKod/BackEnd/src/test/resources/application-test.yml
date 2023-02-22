@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/nasi_ljubimci_test
+    username: nasi_ljubimci
+    password: nasi_ljubimci
+  flyway:
+    enabled: true
+    url: jdbc:postgresql://localhost/nasi_ljubimci_test
+    user: nasi_ljubimci
+    password: nasi_ljubimci
+    schemas: progi
